@@ -57,7 +57,13 @@ basic.forever(function () {
             music.playTone(698, music.beat(BeatFraction.Quarter))
             basic.pause(50)
             music.playTone(698, music.beat(BeatFraction.Quarter))
-            basic.showIcon(IconNames.Happy)
+            basic.showLeds(`
+                . . # . .
+                . . . # .
+                # # # # #
+                . . . # .
+                . . # . .
+                `)
         }
     }
 })
